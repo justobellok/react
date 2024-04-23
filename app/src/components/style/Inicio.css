@@ -1,0 +1,71 @@
+.main-inicio{
+    position: absolute;
+    left: 25%;
+    background: #191414;
+    width: 74%;
+    border-radius: 4px;
+    padding: 10px;
+    height: 80vh;
+}
+
+.header-home{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.link-ul{
+    display: flex;
+    gap: 20px;
+}
+
+.link-ul li{
+list-style: none;
+}
+.link-ul li a{
+    text-decoration: none;
+    color: white;
+    transition: .5s;
+}
+
+.link-ul li a:hover{
+    opacity: .6;
+    font-weight: bold;
+}
+
+
+
+.header-home input{
+    border: none;
+    font-family: "poppins";
+    outline: none;
+    border-radius: 19px;
+    padding: 10px 45px;
+    font-weight: bold;
+    transition: .6s;
+}
+
+
+.user-home{
+    display: flex;
+    gap: 30px;
+}
+
+.user-home a{
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+    background: white;
+    border-radius: 1000%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    transition: .7s;
+}
+
+.user-home a:hover{
+    color: white;
+    background: #1DB954;
+    transform: translateY(-10px);
+}
+
