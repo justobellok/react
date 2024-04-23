@@ -69,3 +69,9 @@ list-style: none;
     transform: translateY(-10px);
 }
 
+.container ul{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 40px;
+    place-items: center;
+}
